@@ -163,7 +163,7 @@
     }
     .contact-title h1{
         padding: 0px;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600;
     }
     .contact-title img{
@@ -174,28 +174,31 @@
         flex-direction: column;
     }
     .contact-left h1{
-        font-size: 44px;
+        font-size: 34px;
     }
     .contact-left p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .contact-details{
         gap: 20px;
     }
     .contact-detail img{
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
+    }
+    .contact-detail p{
+        font-size: 10px;
     }
     .contact-right label{
-        font-size: 16px;
+        font-size: 14px;
     }
     .contact-right input{
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
     }
     .contact-right textarea{
         width: 95%;
-        font-size: 16px;
+        font-size: 14px;
         border-radius: 5px;
     }
     .contact-submit{

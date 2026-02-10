@@ -110,7 +110,7 @@
   }
   .services-title h1 {
     padding: 0px;
-    font-size: 40px;
+    font-size: 30px;
   }
   .services-title img {
     width: 90px;
@@ -121,12 +121,10 @@
     padding: 32px;
   }
   .services-format h2 {
-    font-size: 28px;
+    font-size: 18px;
   }
   .services-format p {
-    font-size: 18px;
-    line-height: 32px;
-    max-width: 300px;
+    display: none;
   }
   .services-readmore img {
     width: 20px;

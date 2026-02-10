@@ -88,6 +88,9 @@
   .navbar {
     margin: 20px 50px;
   }
+  .navbar h1{
+    font-size: 18px;
+  }
   .nav-connect {
     display: none;
   }
