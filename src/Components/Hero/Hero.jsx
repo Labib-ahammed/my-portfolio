@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import heroImage from "../../assets/profile-image.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import labib_cv from "../../assets/labib_cv.pdf";
 let organizationName = "Shotodol IT";
 const Hero = () => {
   return (
@@ -20,7 +21,11 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          <a href={labib_cv} download>
+            My resume
+          </a>
+        </div>
       </div>
     </div>
   );
